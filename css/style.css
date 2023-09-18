@@ -55,24 +55,29 @@
 /* MAIN */
 .blu {
     background-color: #1e90ff;
-    padding: 150px 225px;
+    width: 460px;
+    height: 250px;
 }
 
 .rose {
     background-color: #ffc0cb;
-    padding: 150px 130px;
+    width: 240px;
+    height: 250px;
 }
 
 .margin {
     margin: 30px 0px;
 }
 
-.main-section{
+.main-section {
     background-color: #d3d3d3;
 }
 
-.green{
+.green {
     background-color: #228b22;
-    padding: 240px 356px;
+    width: 700px;
+    height: 470px;
 }
+
+  
 
