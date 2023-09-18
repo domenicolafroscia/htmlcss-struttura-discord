@@ -12,10 +12,13 @@
 
 .navigation {
     background-color: #daa520;
-    border: 1px dashed black;
     padding: 5px 0;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.border{
+    border: 1px dashed black;
 }
 
 .flex {
@@ -45,13 +48,31 @@
 
 .nav-4 {
     background-color: #ee82ee;
-    border: 1px dashed black;
     padding: 125px 250px;
     margin: 30px 150px;
 }
 
-.flex-1 {
-    display: flex;
-    justify-content: center;
-}  
+/* MAIN */
+.blu {
+    background-color: #1e90ff;
+    padding: 150px 225px;
+}
+
+.rose {
+    background-color: #ffc0cb;
+    padding: 150px 130px;
+}
+
+.margin {
+    margin: 30px 0px;
+}
+
+.main-section{
+    background-color: #d3d3d3;
+}
+
+.green{
+    background-color: #228b22;
+    padding: 240px 356px;
+}
 
