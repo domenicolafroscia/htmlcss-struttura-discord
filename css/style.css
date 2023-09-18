@@ -59,14 +59,14 @@
     height: 250px;
 }
 
-.rose {
+.pink {
     background-color: #ffc0cb;
     width: 240px;
     height: 250px;
 }
 
 .margin {
-    margin: 30px 0px;
+    margin: 30px 0px; 
 }
 
 .main-section {
@@ -79,5 +79,45 @@
     height: 470px;
 }
 
-  
+/* FOOTER (part-1)*/
+.footer-section {
+    background-color: #23272a;
+}
 
+.margin-1 {
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.rose {
+    background-color: #f08080;
+    width: 300px;
+    height: 280px;
+}
+  
+.lightgreen {
+    background-color: #20b2aa;
+    width: 100px;
+    height: 280px;
+    border: 1px dashed white;
+}
+
+/* FOOTER (part-2)*/
+.watergreen {
+   background-color:  #7fffd4;
+   margin-top: 30px;
+   width: 700px;
+   height: 50px;
+}
+
+.logo-button {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+}
