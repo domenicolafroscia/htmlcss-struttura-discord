@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* NAV (part-1)*/
 .section-1 { 
     background-color: #add8e6;
@@ -17,7 +21,7 @@
     margin-bottom: 10px;
 }
 
-.border{
+.border { 
     border: 1px dashed black;
 }
 
@@ -27,18 +31,24 @@
 }
 
 .nav-1 {
-    padding-left: 5px;
-    padding-right: 100px;
+    padding-left: 15px;
+    width: 150px;
 }
 
 .nav-2 {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    list-style-type: none;
+    display: flex;
+    width: 400px;
+}
+
+.link-header {
+    padding-left: 8px;
 }
 
 .nav-3 {
     padding-left: 100px;
-    padding-right: 5px;
+    width: 150px;
 }
 
 /* NAV (part-2)*/
@@ -56,13 +66,13 @@
 .blu {
     background-color: #1e90ff;
     width: 460px;
-    height: 250px;
+    min-height: 250px;
 }
 
 .pink {
     background-color: #ffc0cb;
     width: 240px;
-    height: 250px;
+    min-height: 250px;
 }
 
 .margin {
@@ -76,7 +86,7 @@
 .green {
     background-color: #228b22;
     width: 700px;
-    height: 470px;
+    min-height: 470px;
 }
 
 /* FOOTER (part-1)*/
@@ -92,13 +102,13 @@
 .rose {
     background-color: #f08080;
     width: 300px;
-    height: 280px;
+    min-height: 280px;
 }
   
 .lightgreen {
     background-color: #20b2aa;
     width: 100px;
-    height: 280px;
+    min-height: 280px;
     border: 1px dashed white;
 }
 
@@ -107,7 +117,7 @@
    background-color:  #7fffd4;
    margin-top: 30px;
    width: 700px;
-   height: 50px;
+   min-height: 50px;
 }
 
 .logo-button {
